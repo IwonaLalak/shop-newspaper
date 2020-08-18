@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import HomeView from "./views/HomeView/HomeView";
 import AdminDefineNewspaperView from "./views/Admin_DefineNewspaperView/Admin_DefineNewspaperView";
 import AdminDefineProductView from "./views/Admin_DefineProductView/AdminDefineProductView";
