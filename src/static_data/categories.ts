@@ -33,7 +33,7 @@ export const static_categories = [
             },
             {
                 subcategory_id: 22,
-                subcategory_name: 'Warzywa importowanie',
+                subcategory_name: 'Warzywa importowane',
                 subcategory_url: '/warzywa/importowane',
             },
         ]
@@ -50,7 +50,7 @@ export const static_categories = [
             },
             {
                 subcategory_id: 32,
-                subcategory_name: 'Owoce importowanie',
+                subcategory_name: 'Owoce importowane',
                 subcategory_url: '/owoce/importowane',
             },
         ]
