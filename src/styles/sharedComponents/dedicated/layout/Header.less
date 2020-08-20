@@ -1,7 +1,7 @@
 @import "../../../variables";
 
 #HEADER_COMPONENT {
-  padding: 15px;
+  padding: 15px 0;
   background: #fff;
   border-bottom: 3px solid @primary_color;
 
@@ -17,6 +17,10 @@
     line-height: 50px;
     text-align: center;
     font-style: italic;
+  }
+
+  #header-component__hamburger {
+    display: none;
   }
 
   #header-component__menu {
@@ -134,7 +138,7 @@
                 border-right: 3px solid @grey_color;
 
                 &:hover {
-                 // background: rgba(@grey_color_rgb , 0.5)
+                  // background: rgba(@grey_color_rgb , 0.5)
                   text-decoration: underline;
                 }
               }
@@ -193,6 +197,30 @@
       #header-component__menu__user-actions__basket {
 
       }
+    }
+
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #HEADER_COMPONENT {
+    padding: 5px 0;
+
+    #header-component__content{
+
+    }
+
+    #header-component__logo{
+
+    }
+
+    #header-component__hamburger{
+      display:inline-block;
+    }
+
+    #header-component__menu{
+      display:block
+
     }
 
   }
