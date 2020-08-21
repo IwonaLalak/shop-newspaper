@@ -11,8 +11,10 @@ const HeaderComponent = () => {
                 <Row>
                     <Col>
                         <div id={'header-component__content'}>
+                        <div id={'header-component__content__upper'}>
                             <HeaderComponentLogo/>
                             <HeaderComponentHamburger/>
+                        </div>
                             <HeaderComponentMenu/>
                         </div>
                     </Col>
