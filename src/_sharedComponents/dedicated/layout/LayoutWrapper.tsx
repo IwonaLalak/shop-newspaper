@@ -13,13 +13,9 @@ const LayoutWrapper: React.FC<Props> = ({children}) => {
             <HeaderComponent/>
             <div id={'CONTENT_WRAPPER'}>
                 <Container>
-                    <Row>
-                        <Col>
-                            <div id={'CONTENT'}>
-                                {children}
-                            </div>
-                        </Col>
-                    </Row>
+                    <div id={'CONTENT'}>
+                        {children}
+                    </div>
                 </Container>
             </div>
             <FooterCompontent/>

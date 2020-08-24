@@ -1,27 +1,37 @@
 @import "../../../variables";
 
-#CONTENT_WRAPPER{
-  flex:1;
-  
-  #CONTENT{
-    background: #fff;
+#CONTENT_WRAPPER {
+  flex: 1;
 
-    .blockp{
-      width:100px;
+  @media screen and (max-width: 575px) {
+    & > .container {
+      padding: 0;
+    }
+  }
+
+  #CONTENT {
+    background: #fff;
+    padding: 15px;
+
+    .blockp {
+      width: 100px;
       height: 50px;
-      display:inline-block;
+      display: inline-block;
     }
 
-    .firstp{
+    .firstp {
       background: @primary_color;
     }
-    .secp{
+
+    .secp {
       background: @secondary_color;
     }
-    .thip{
+
+    .thip {
       background: @accent_color;
     }
-    .fop{
+
+    .fop {
       background: @grey_color;
     }
 
