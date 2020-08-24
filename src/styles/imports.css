@@ -1,0 +1,350 @@
+#LAYOUT_WRAPPER {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: url("../_resources/images/bg_repeat_pattern.jpg") repeat;
+  background-size: 25%;
+  /* fonts */
+  /* colors */
+}
+@media screen and (max-width: 991px) {
+  #LAYOUT_WRAPPER {
+    background-size: 50%;
+  }
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u-w4BMUTPHjxsIPy-v.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2PHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxswWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wqPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI3wiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHh30wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHvxk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVew8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50Xew8.ttf) format('truetype');
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT {
+  padding: 15px 0;
+  background: #fff;
+  border-bottom: 3px solid #4f5a90;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content {
+  display: flex;
+  justify-content: space-between;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__content__upper #header-component__logo {
+  background: #eee;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-style: italic;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__content__upper #header-component__hamburger {
+  display: none;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu ul {
+  margin: 0;
+  padding: 0;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions *,
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories * {
+  font-family: 'Lato', sans-serif;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions a:hover,
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories a:hover {
+  text-decoration: none;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li a,
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories ul li a {
+  font-size: 18px;
+  padding: 6px 12px;
+  display: block;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:nth-of-type(1) > a svg {
+  color: #c08034;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:nth-of-type(1) ul li a:before {
+  color: #c08034;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:nth-of-type(2) > a svg {
+  color: #e75a48;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:nth-of-type(2) ul li a:before {
+  color: #e75a48;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:nth-of-type(3) > a svg {
+  color: #2dbaad;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:nth-of-type(3) ul li a:before {
+  color: #2dbaad;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li > a {
+  color: #4f5a90;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li > a svg {
+  width: 24px;
+  margin-right: 3px;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul ul li a:before {
+  content: '\2666';
+  margin-right: 8px;
+}
+#LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li a svg {
+  width: 24px;
+  margin-right: 3px;
+}
+@media screen and (min-width: 992px) {
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu > div {
+    display: flex;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu ul li {
+    display: inline-block;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li {
+    transition: all ease 0.5s;
+    position: relative;
+    border-radius: 5px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:hover {
+    background: #4f5a90;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:hover > a {
+    color: #fff;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:hover > a svg {
+    color: #fff;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li:hover ul li {
+    max-height: 78px;
+    transition: all ease 0.5s;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li ul {
+    padding-top: 5px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li ul li {
+    display: block;
+    max-height: 0;
+    background: #fff;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li ul li a {
+    min-width: 170px;
+    background: #fff;
+    color: #4f5a90;
+    border-left: 3px solid #b2d4e0;
+    border-right: 3px solid #b2d4e0;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li ul li a:hover {
+    text-decoration: underline;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li ul li:first-of-type a {
+    border-top: 3px solid #b2d4e0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li ul li:last-of-type a {
+    border-bottom: 3px solid #b2d4e0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions::before {
+    content: '|';
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 6px 12px;
+    color: #b2d4e0;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul {
+    display: inline-block;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li a {
+    color: #4f5a90;
+    transition: all ease 0.5s;
+    border-radius: 5px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li a .badge-primary {
+    background: #ffaf34;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li a:hover {
+    background: #4f5a90;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 991px) {
+  #LAYOUT_WRAPPER #HEADER_COMPONENT {
+    padding: 5px 0;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content {
+    display: block;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__content__upper #header-component__logo {
+    display: inline-block;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__content__upper #header-component__hamburger {
+    display: block;
+    width: 32px;
+    height: 50px;
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    text-align: center;
+    color: #4f5a90;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__content__upper #header-component__hamburger > div {
+    width: 32px;
+    height: 50px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu {
+    display: block;
+    background: #fff;
+    width: 100%;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu ul li {
+    display: block;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories {
+    border-top: 3px solid #b2d4e0;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li {
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #b2d4e0;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li > a {
+    min-width: 150px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__categories > ul > li ul li a {
+    color: #4f5a90;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul {
+    display: flex;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li:first-of-type a {
+    min-width: 150px;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li a {
+    color: #4f5a90;
+  }
+  #LAYOUT_WRAPPER #HEADER_COMPONENT #header-component__content #header-component__menu #header-component__menu__user-actions ul li a .badge-primary {
+    background: #ffaf34;
+  }
+}
+@media screen and (max-width: 575px) {
+  #LAYOUT_WRAPPER #header-component__menu__categories > ul > li {
+    display: block !important;
+  }
+  #LAYOUT_WRAPPER #header-component__menu__categories > ul > li ul {
+    padding-left: 5px !important;
+  }
+  #LAYOUT_WRAPPER #header-component__menu__user-actions ul {
+    display: block !important;
+  }
+}
+#LAYOUT_WRAPPER #CONTENT_WRAPPER {
+  flex: 1;
+}
+@media screen and (max-width: 575px) {
+  #LAYOUT_WRAPPER #CONTENT_WRAPPER > .container {
+    padding: 0;
+  }
+}
+#LAYOUT_WRAPPER #CONTENT_WRAPPER #CONTENT {
+  background: #fff;
+  padding: 15px;
+}
+#LAYOUT_WRAPPER #CONTENT_WRAPPER #CONTENT .blockp {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+}
+#LAYOUT_WRAPPER #CONTENT_WRAPPER #CONTENT .firstp {
+  background: #4f5a90;
+}
+#LAYOUT_WRAPPER #CONTENT_WRAPPER #CONTENT .secp {
+  background: #2dbaad;
+}
+#LAYOUT_WRAPPER #CONTENT_WRAPPER #CONTENT .thip {
+  background: #ffaf34;
+}
+#LAYOUT_WRAPPER #CONTENT_WRAPPER #CONTENT .fop {
+  background: #b2d4e0;
+}
+#LAYOUT_WRAPPER #FOOTER_COMPONTENT {
+  margin-top: 15px;
+  font-size: 0.75rem;
+  color: #4f5a90;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+#LAYOUT_WRAPPER #FOOTER_COMPONTENT a {
+  color: inherit;
+}
+/*# sourceMappingURL=imports.css.map */
