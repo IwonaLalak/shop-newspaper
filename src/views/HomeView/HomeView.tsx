@@ -2,7 +2,7 @@ import React from 'react';
 import {Button} from 'react-bootstrap'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import LayoutWrapper from "../../_sharedComponents/dedicated/layout/LayoutWrapper";
+import LayoutWrapper from "../../sharedComponents/dedicated/layout/LayoutWrapper";
 
 const HomeView = () => {
     return (

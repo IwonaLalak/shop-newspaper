@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import LayoutWrapper from "../../_sharedComponents/dedicated/layout/LayoutWrapper";
+import LayoutWrapper from "../../sharedComponents/dedicated/layout/LayoutWrapper";
 
 class NewspapersView extends Component {
     render() {

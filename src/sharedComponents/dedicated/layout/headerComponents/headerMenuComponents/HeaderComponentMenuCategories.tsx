@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {static_categories} from "../../../../../static_data/categories";
+import {static_categories} from "../../../../../_static_data/categories";
 import {M_Category} from "../../../../../_models/shared/Category";
 import {M_Subcategory} from "../../../../../_models/shared/Subcategory";
 import {S_IconApple, S_IconCarrot, S_IconCoffee} from "../../../../shared/icons/Icons";
